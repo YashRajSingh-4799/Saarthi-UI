@@ -1,0 +1,18 @@
+<svg width="105" height="105" viewBox="0 0 105 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Primary Button">
+<g id="Ellipse 705" filter="url(#filter0_f_269_1086)">
+<circle cx="52.5" cy="52.5" r="42.5" fill="#FFDD00" fill-opacity="0.35"/>
+</g>
+<circle id="Ellipse 706" cx="53" cy="53" r="40" fill="#FFDD00"/>
+<path id="Vector" d="M37.1942 67.9017C38.119 68.5594 21.5656 57.5774 35.9445 42.7471C50.3234 27.916 84.2764 28.148 73.5804 53.485C62.8838 78.8221 46.7515 74.9646 37.1942 67.9017Z" fill="#E78A43"/>
+<path id="Vector_2" d="M65.0733 61.0599C68.8379 54.8307 66.2458 46.3702 59.2839 42.1629C52.322 37.9555 43.6264 39.5946 39.8619 45.8238C36.0974 52.0531 38.6894 60.5136 45.6514 64.7209C52.6133 68.9282 61.3088 67.2891 65.0733 61.0599Z" fill="#81D3D9"/>
+<path id="Vector_3" d="M49.1426 54.8046L47.5884 55.229C46.7234 55.4718 45.8393 54.8736 45.7936 53.9951C45.7933 53.9897 45.793 53.9837 45.7928 53.9784C45.5904 49.9044 48.8508 46.3816 53.0153 46.1747C57.1798 45.9679 60.7734 49.1501 60.9758 53.2241C61.1782 57.2981 57.9177 60.8208 53.7532 61.0277C53.4655 61.042 53.1776 61.0402 52.891 61.0229C51.988 60.9673 51.3794 60.096 51.6408 59.2485L52.4518 56.6216C52.8543 55.3173 51.624 54.0962 50.2853 54.4724L49.1426 54.8046Z" fill="#0F5D90"/>
+</g>
+<defs>
+<filter id="filter0_f_269_1086" x="0" y="0" width="105" height="105" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_269_1086"/>
+</filter>
+</defs>
+</svg>

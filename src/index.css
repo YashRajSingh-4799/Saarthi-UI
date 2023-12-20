@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --collection-1-gray: rgba(227, 227, 227, 1);
+  --collection-1-light-pink: rgba(255, 219, 210, 1);
+  --collection-1-saarthi-dark-green: rgba(0, 52, 55, 1);
+  --collection-1-saarthi-green-1: rgba(19, 171, 151, 1);
+  --collection-1-saarthi-yellow: rgba(255, 221, 0, 1);
+}
