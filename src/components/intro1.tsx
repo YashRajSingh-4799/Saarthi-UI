@@ -1,14 +1,12 @@
-// import Object from "./assets/OBJECTS.svg";
-// import Object2 from "./assets/OBJECTS1.png";
-// import Object3 from "./assets/OBJECTS3.svg";
-// import "./App.css";
+import Object from "./../assets/OBJECTS.svg";
+import Object2 from "./../assets/OBJECTS1.png";
+import Object3 from "./../assets/OBJECTS3.svg";
+import "./../App.css";
 
 export default function intro1() {
   
-
   return (
     <div className="bg-red-100 h-screen w-full">
-
       <div className="flex justify-center items-center pt-12">
         <div className="relative">
           <div className="flex items-center">
