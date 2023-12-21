@@ -1,6 +1,7 @@
 import Object from "./../assets/OBJECTS.svg";
 import Object2 from "./../assets/OBJECTS1.png";
 import Object3 from "./../assets/OBJECTS3.svg";
+import sarthilogo from "./../assets/sarthi_logo.svg";
 import "./../App.css";
 
 export default function intro1() {
@@ -35,6 +36,12 @@ export default function intro1() {
       </div>
       <div className="absolute bottom-0 left-0 ...">
         <img src={Object3} alt="Objects" />
+      </div>
+
+      <div className="flex justify-center mt-52 ">
+        <button className="flex justify-center items-center w-16 h-16 bg-yellow-400 mt-6 rounded-full">
+          <img src={sarthilogo} className="w-12 justify-center" alt="" />
+        </button>
       </div>
     </div>
   );

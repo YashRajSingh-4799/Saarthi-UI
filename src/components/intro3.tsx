@@ -1,9 +1,15 @@
-import Object from "./../assets/FTE2_OBJECTS1.svg";
-import Object2 from "./../assets/FTE2_OBJECTS2.svg";
-import Object3 from "./../assets/FTE2_OBJECTS3.svg";
+import Object from "./../assets/intr03_feather1.svg";
+import Object2 from "./../assets/intr03_feather2.svg";
+import Object3 from "./../assets/intr03_feather3.svg";
+import sarthilogo from "./../assets/sarthi_logo.svg";
 import "./../App.css";
 
 export default function intro2() {
+
+  const handleButtonClick = () => {
+    console.log("Button was clicked!");
+  };
+
   return (
     <div className="bg-[#B2DDF3] h-screen w-full">
       <div className="flex justify-center items-center pt-12">
@@ -34,6 +40,15 @@ export default function intro2() {
       </div>
       <div className="absolute bottom-0  left-0 ...">
         <img src={Object3} alt="Objects" />
+      </div>
+
+      <div className="absolute bottom-16 left-48 z-10">
+        <button
+          className="flex justify-center items-center w-16 h-16 bg-yellow-400 mt-6 rounded-full"
+          onClick={handleButtonClick}
+        >
+          <img src={sarthilogo} className="w-12 justify-center" alt="" />
+        </button>
       </div>
     </div>
   );
