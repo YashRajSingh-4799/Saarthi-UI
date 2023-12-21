@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Object from "./../assets/intr03_feather1.svg";
 import Object2 from "./../assets/intr03_feather2.svg";
 import Object3 from "./../assets/intr03_feather3.svg";
@@ -42,13 +43,15 @@ export default function intro2() {
         <img src={Object3} alt="Objects" />
       </div>
 
-      <div className="absolute bottom-16 left-48 z-10">
+      <div className="absolute bottom-16 left-44 z-10">
+        <Link to="/signup">
         <button
           className="flex justify-center items-center w-16 h-16 bg-yellow-400 mt-6 rounded-full"
           onClick={handleButtonClick}
-        >
+          >
           <img src={sarthilogo} className="w-12 justify-center" alt="" />
         </button>
+          </Link>
       </div>
     </div>
   );

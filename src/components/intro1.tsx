@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 import Object from "./../assets/OBJECTS.svg";
 import Object2 from "./../assets/OBJECTS1.png";
 import Object3 from "./../assets/OBJECTS3.svg";
@@ -38,10 +39,12 @@ export default function intro1() {
         <img src={Object3} alt="Objects" />
       </div>
 
-      <div className="flex justify-center mt-52 ">
+      <div className="absolute  left-44 mt-48 ">
+      <Link to="/intro2">
         <button className="flex justify-center items-center w-16 h-16 bg-yellow-400 mt-6 rounded-full">
           <img src={sarthilogo} className="w-12 justify-center" alt="" />
         </button>
+      </Link>
       </div>
     </div>
   );
