@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Intro1 from "./components/intro1";
@@ -7,6 +6,7 @@ import Intro3 from "./components/intro3";
 import SignUp from "./components/OTPSignup";
 import OTPLogin from "./components/OTPLogin";
 import Welcome from "./components/welcome";
+import Questionnaire from "./components/Questionnaire";
 const App = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const App = () => {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<OTPLogin />} />
           <Route path="/welcome" element={<Welcome />} />
+          <Route path="/questionnaire" element={<Questionnaire />} />
       </Routes>
     </>
         );

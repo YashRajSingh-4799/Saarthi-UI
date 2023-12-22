@@ -41,7 +41,7 @@ export default function intro1() {
 
       <div className="absolute  left-44 mt-48 ">
       <Link to="/intro2">
-        <button className="flex justify-center items-center w-16 h-16 bg-yellow-400 mt-6 rounded-full">
+        <button className="flex justify-center items-center w-16 h-16 bg-yellow-400 mt-20 rounded-full">
           <img src={sarthilogo} className="w-12 justify-center" alt="" />
         </button>
       </Link>

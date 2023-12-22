@@ -4,7 +4,7 @@ import journey from "../assets/journey.svg";
 import story from "../assets/story.svg";
 import gradient from "../assets/gradient.svg";
 
-export default function OTPLogin() {
+export default function welcome() {
   return (
     <div className="w-[414px] h-screen">
       <div
@@ -22,11 +22,11 @@ export default function OTPLogin() {
           <br /> of life to true happiness.
         </div>
 
-        <div className="text-center text-sm text-white mt-10 font-extralight z-20">
+        <div className="text-center text-sm font-bold text-white mt-10  z-20">
           Going forward you will have access to the <br />
           following features to track your happiness!
         </div>
-        <div className="flex space-x-6 font-normal justify-center items-center mt-6  mx-10 rounded-3xl h-16 z-20">
+        <div className="flex space-x-6 font-semibold text-sm justify-center items-center mt-6  mx-10 rounded-3xl h-16 z-20">
           <div className="text-[#E29B65]">
             <div className="flex w-14 h-14 justify-center items-center   bg-[#003437] rounded-2xl">
               <img src={seek} className="w-8" alt="" />
@@ -49,7 +49,7 @@ export default function OTPLogin() {
           </div>
         </div>
 
-        <div className="justify-center mt-10 font-normal text-white">
+        <div className="justify-center mt-10 font-semibold text-white">
           To unlock true power of Sarathi, Please <br />
           answer these questions Sarathi has <br />
           curated for you.
@@ -59,12 +59,12 @@ export default function OTPLogin() {
           complete this.
         </div>
 
-        <div className="flex justify-center z-20">
+        <div className="flex justify-center pt-8 z-20">
           <button className="flex justify-center items-center w-16 h-16 bg-yellow-400 mt-6 rounded-full">
             <img src={sarthilogo} className="w-12 justify-center" alt="" />
           </button>
         </div>
-        
+
       </div>
     </div>
   );

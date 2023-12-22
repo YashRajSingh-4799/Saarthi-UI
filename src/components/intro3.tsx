@@ -24,26 +24,26 @@ export default function intro2() {
       </div>
 
       <div className="flex justify-center items-center pt-10">
-        <p className=" w-[342px] top-0 left-0 [font-family:'Meutas_Soft-ExtraBold',Helvetica]  font-extrabold text-[#003437] text-[24px] text-center ">
-          Ask me anything, anywhere & anytime. I will always be there for you!
+        <p className=" top-0 left-0 [font-family:'Meutas_Soft-ExtraBold',Helvetica]  font-extrabold text-[#003437] text-[26px] text-center ">
+          Ask me anything,<br /> anywhere & <br /> anytime. I will <br /> always be there for <br /> you!
         </p>
       </div>
 
       {/* IMG  */}
-      <div className="flex">
-        <div className="flex px-10 opacity-70 scale-150">
+     
+        <div className="absolute left-6 px-10 opacity-70">
           <img src={Object} alt="Objects" />
         </div>
 
-        <div className="flex px-10 scale-150">
+        <div className="absolute right-0 px-10 pt-16 w-[200px]">
           <img src={Object2} alt="Objects" />
         </div>
-      </div>
-      <div className="absolute bottom-0  left-0 ...">
+     
+      <div className="absolute bottom-0  left-6 w-[220px]">
         <img src={Object3} alt="Objects" />
       </div>
 
-      <div className="absolute bottom-16 left-44 z-10">
+      <div className="absolute bottom-16 left-44  z-10">
         <Link to="/signup">
         <button
           className="flex justify-center items-center w-16 h-16 bg-yellow-400 mt-6 rounded-full"
