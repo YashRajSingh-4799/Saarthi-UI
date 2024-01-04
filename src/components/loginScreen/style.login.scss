@@ -1,0 +1,121 @@
+// OTPLogin.scss
+
+.custom-container {
+  width: 414px;
+  height: 100vh;
+}
+
+.custom-layout {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #003437;
+  max-width: 414px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.custom-gradient {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 1rem;
+  left: 16px;
+  z-index: 20;
+  transform: rotate(90deg);
+}
+
+.custom-text {
+  font-size: 8rem;
+  padding-top: 32px;
+}
+
+.custom-info-text {
+  text-align: center;
+  font-size: 0.875rem;
+  color: white;
+  font-weight: 300;
+  margin-top: 1.25rem;
+
+  .custom-bold-number {
+    color: #00FF00; /* Change to your desired color */
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+.custom-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+
+  // Adjust styles for your input fields here
+}
+
+.login-custom-button {
+  display: flex;
+  z-index: 20;
+  justify-content: center;
+  
+  // align-items: center;
+  margin-top: 10rem;
+  transform: scale(0.75);
+
+  .login-custom-logo {
+    width: 5rem;
+    height: 5rem;
+    background-color: #FFD700;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  .login-sarthi-logo{
+    width: 3rem;
+    height: 3rem;
+    // background-color: #FFD700;
+    border-radius: 50%;
+    display: flex;
+  }
+  }
+}
+
+/* Define a container to display inputs in a row */
+.input-container {
+  display: flex;
+  gap: 1rem; /* Adjust the gap between inputs as needed */
+  z-index: 20;
+}
+
+/* Define a reusable style for the input fields */
+.custom-input {
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: white;
+  color: #333;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: 2px solid transparent;
+
+  &:focus {
+    border-color: #3498db;
+  }
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

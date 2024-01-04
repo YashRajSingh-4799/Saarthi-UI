@@ -1,0 +1,85 @@
+// questionnaire.scss
+
+.custom-container {
+  width: 414px;
+  height: 100vh;
+}
+
+.custom-layout {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #003437;
+  max-width: 480px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.custom-gradient {
+  position: absolute;
+  width: 100%;
+}
+
+.custom-title {
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.custom-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+
+  img {
+    width: 4rem;
+  }
+}
+
+.custom-question {
+  font-size: 1.5rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.custom-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+
+  // Adjust styles for your input fields here
+}
+
+.custom-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  margin-top: 1.5rem;
+
+  button {
+    background-color: #FFD700;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+.custom-info {
+  justify-content: center;
+  margin-top: 2.5rem;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #C8E6C9;
+  text-align: center;
+}

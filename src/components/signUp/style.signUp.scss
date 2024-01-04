@@ -1,0 +1,141 @@
+.signin-custom-container {
+  width: 414px;
+  height: 100vh;
+}
+
+.signin-custom-layout {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background-color: #003437;
+  max-width: 480px;
+  flex-direction: column;
+  margin: 0 auto;
+
+  .signin-custom-gradient {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .signin-custom-text {
+    font-size: 2rem;
+    padding-top: 20%;
+  }
+
+  .signin-custom-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    .signin-custom-select {
+      position: relative;
+
+      select {
+        appearance: none;
+        width: 100px;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        background-color: white;
+        color: #333;
+        border: 2px solid #3498db;
+        outline: none;
+        cursor: pointer;
+      }
+
+      .signin-custom-arrow {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        pointer-events: none;
+        padding-right: 5px;
+      }
+    }
+
+    .signin-custom-number-input {
+      margin-top: 10px;
+      border: none;
+      font-size: 3rem;
+      z-index: 20;
+
+      input {
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        font-size: rem;
+        max-width: 150px;
+        width: 100%;
+        background-color: white;
+        color: #333;
+        border: none;
+        height: fit-content;
+        outline: none;
+        z-index: 20;
+      }
+    }
+  }
+
+  .signin-custom-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    border-radius: 50%;
+    z-index: 20;
+    background-color: #ffd700;
+
+    .signin-custom-arrow-container {
+      width: 50px;
+      height: 50px;
+      // background-color: #ffd700;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .signin-custom-agreement {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.875rem;
+    color: #c8e6c9;
+
+    .signin-custom-green-text {
+      color: #00ff00;
+    }
+  }
+
+  .signin-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 70%;
+    height: 3.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: white;
+    color: #333;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    z-index: 20;
+  }
+}
+
+.send-arrow{
+  width: 20px;
+  height: 20px;
+ 
+}

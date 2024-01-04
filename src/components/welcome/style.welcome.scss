@@ -1,0 +1,119 @@
+// welcome.scss
+
+.custom-container {
+  width: 414px;
+  height: 100vh;
+}
+
+.custom-layout {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #003437;
+  max-width: 480px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.custom-gradient {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.custom-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+  img {
+    width: 6rem;
+  }
+}
+
+.custom-text {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.custom-features {
+  margin-top: 20px;
+}
+
+.custom-features-text {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: white;
+}
+
+.custom-feature-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.custom-feature {
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: white;
+
+  .custom-icon-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+
+  .custom-seek {
+    background-color: #E29B65;
+  }
+
+  .custom-journey {
+    background-color: #FAB7A7;
+  }
+
+  .custom-story {
+    background-color: #ABADD6;
+  }
+}
+
+.custom-questions {
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+
+  .custom-bold {
+    font-weight: bold;
+    color: #00FF00;
+  }
+}
+
+.custom-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  button {
+    background-color: #FFD700;
+    border: none;
+    border-radius: 50%;
+    padding: 0.75rem;
+    cursor: pointer;
+
+    img {
+      width: 3rem;
+    }
+  }
+}

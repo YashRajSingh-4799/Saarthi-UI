@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import Intro1 from "./components/intro1";
-import Intro2 from "./components/intro2";
-import Intro3 from "./components/intro3";
-import SignUp from "./components/OTPSignup";
-import OTPLogin from "./components/OTPLogin";
-import Welcome from "./components/welcome";
-import Questionnaire from "./components/Questionnaire";
+import "./App.scss";
+import Intro1 from "./components/intro1/intro1";
+import Intro2 from "./components/intro2/intro2";
+import Intro3 from "./components/intro3/intro3";
+import SignUp from "./components/signUp/OTPSignup";
+import OTPLogin from "./components/loginScreen/OTPLogin";
+import Welcome from "./components/welcome/welcome";
+import Questionnaire from "./components/questionnaire/Questionnaire";
 const App = () => {
   return (
     <>

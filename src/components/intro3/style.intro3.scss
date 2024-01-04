@@ -1,0 +1,98 @@
+// intro3.scss
+
+.intro-container {
+  background-color: #B2DDF3;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  padding-top: 20%;
+  align-items: center;
+  position: relative;
+}
+
+.loading-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .indicator3-bar {
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    margin: 0 4px;
+    
+    &:last-child {
+      background-color: #003437;
+    }
+  }
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.title-text {
+  // font-family: ;
+  font-weight: 800;;
+  color: #003437;
+  font-size: 26px;
+  text-align: center;
+}
+
+.images-container {
+  display: flex;
+  position: relative;
+}
+
+.image-wrapper {
+  position: absolute;
+  opacity: 0.7;
+}
+
+.left-image {
+  left: 6px;
+  padding: 0 10px;
+}
+
+.right-image {
+  right: 0;
+  padding: 0 10px;
+  padding-top: 16px;
+  width: 200px;
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 0;
+  left: 6px;
+  width: 220px;
+}
+
+.sarthi-logo {
+  position: absolute;
+  bottom: 16px;
+  left: 44px;
+  z-index: 10;
+
+  a {
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      background-color: #FFD700;
+      border-radius: 50%;
+
+      img {
+        width: 24px;
+      }
+    }
+  }
+}
