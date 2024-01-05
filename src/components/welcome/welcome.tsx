@@ -7,15 +7,14 @@ import "./style.welcome.scss"; // Import the SCSS file
 
 export default function Welcome() {
   return (
-    <div className="custom-container">
+    <div className="welcome-custom-container">
       <div className="custom-layout">
         <img className="custom-gradient" src={gradient} alt="" />
 
         <div className="custom-logo">
           <img src={sarthilogo} alt="" />
         </div>
-
-        <div className="custom-text">
+        <div className="welcome-custom-text">
           Welcome! <br />I will be your Sarathi in <br /> your awesome journey{" "}
           <br /> of life to true happiness.
         </div>
@@ -27,21 +26,21 @@ export default function Welcome() {
           </p>
 
           <div className="custom-feature-icons">
-            <div className="custom-feature">
+            <div className="welcome-custom-feature">
               <div className="custom-icon-bg custom-seek">
                 <img src={seek} alt="" />
               </div>
               Seek
             </div>
 
-            <div className="custom-feature">
+            <div className="welcome-custom-feature">
               <div className="custom-icon-bg custom-journey">
                 <img src={journey} alt="" />
               </div>
               Journey
             </div>
 
-            <div className="custom-feature">
+            <div className="welcome-custom-feature">
               <div className="custom-icon-bg custom-story">
                 <img src={story} alt="" />
               </div>
@@ -60,7 +59,7 @@ export default function Welcome() {
           complete this.
         </div>
 
-        <div className="custom-button">
+        <div className="welcome-custom-button">
           <button>
             <img src={sarthilogo} alt="" />
           </button>

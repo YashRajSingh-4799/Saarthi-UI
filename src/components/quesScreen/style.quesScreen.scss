@@ -44,21 +44,28 @@
   font-size: 1.5rem;
   justify-content: center;
   margin-top: 1.5rem;
+  margin: 10%;
 }
 
-.custom-button {
+.custom-button-ques {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 5rem;
-  margin-top: 1.5rem;
-  z-index: 10;
+  justify-content: center;
+  margin-top: 30%;
+  z-index: 20;
 
   button {
-    background-color: #ffd700;
-    border: none;
+    background-color: #003437;
+    border-color:#FD0;
+    font-size: large;
+    width: 20%;
+    height: 60px;
+    border-width: 2px;
+    color: #FD0;
     padding: 0.5rem 1rem;
+    margin: 50px;
     border-radius: 0.75rem;
     font-weight: bold;
+    z-index: 20;
     cursor: pointer;
   }
 }

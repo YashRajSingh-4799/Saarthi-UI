@@ -73,7 +73,7 @@ export default function SignUp() {
               />
             </div>
         </form>
-          <button type="submit" className="signin-custom-button">
+          <button type="submit" onClick={handlePhoneNumberSubmit} className="signin-custom-button">
             <div className="signin-custom-arrow-container">
               <img className="send-arrow" src={rightarrow} alt="" /> 
             </div>

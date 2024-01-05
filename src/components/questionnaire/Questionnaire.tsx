@@ -20,8 +20,32 @@ export default function questionnaire() {
           Rider!
         </div>
 
-        <div className="custom-inputs">
-          {/* Replace with your input fields */}
+        <div className="custom-input">
+          <div>
+            <div className="input-box">
+              <input
+                className="custom-input-box"
+                type="text"
+                placeholder="Name"
+              />
+            </div>
+
+            <div className="input-box">
+              <input
+                className="custom-input-box"
+                type="text"
+                placeholder="Age"
+              />
+            </div>
+
+            <div className="input-box">
+              <input
+                className="custom-input-box"
+                type="text"
+                placeholder="Gender"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="custom-button">
